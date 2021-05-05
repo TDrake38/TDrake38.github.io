@@ -1,8 +1,8 @@
 # Get_Coding_Project
 <html>
-    <h>
+    <h1>
     Emergency Preparedness Plans
-    </h>
+    </h1>
 
 <p>
     Here is a list of different emergencies if you were at home waiting for them to happen.
