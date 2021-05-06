@@ -12,12 +12,12 @@
     Here is a list of different emergencies in <strong>Canada</strong> if you were at home waiting for them to happen.
 </p>
     <ul>
-        <li>Tornados</li>
+        <li>Earthquakes</li>
         <li>Floods</li>
         <li>House Fire/Wild Fires</li>
         <li>Hurricanes</li>
+        <li>Tornados</li>
         <li>Tsunamis</li>
-        <li>Earthquakes</li>
         <li>Winter Storms</li>
     </ul>
  
