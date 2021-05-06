@@ -9,7 +9,7 @@
 </h1
 
 <p>
-    Here is a list of different emergencies in Canada if you were at home waiting for them to happen.
+    Here is a list of different emergencies in <strong>Canada</strong> if you were at home waiting for them to happen.
 </p>
     <ul>
         <li>Tornados</li>
