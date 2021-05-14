@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 200px;
+    background-color: #333333;
+    color: #D3D3D3;
+    
+    
+}
+h1 {
+    text-align: center;
+    background-color: indigo;
+    color: ivory;
+    border: 3px solid black;
+    padding: 10px 10px ;
+    margin: 10px 200px;
+    border-radius: 30px;
+
+}
+h2 { text-align: center;
+    border: 3px solid black;
+    padding: 10px 10px ;
+    border-radius: 30px;
+    margin: 10px 400px;
+    background-color: indigo;
+    
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:ivory;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: #D3D3D3;
+}
+.main-list {
+    color:#D3D3D3;
+    border: 3px solid #D3D3D3;
+    border-radius: 15px;
+    margin: 10px 850px 10px 10px;
+    padding: 10px;
+    list-style: none ;
+    
+    
+
+}
+
+.bags{
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.weather {
+    border-radius: 15px;
+}
