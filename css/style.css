@@ -90,7 +90,7 @@ h3 {
 .weather {
     border-radius: 15px;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .my-form {
@@ -124,4 +124,48 @@ h3 {
 
 .block {
     float: left;
+}
+
+
+#sent   {
+    text-align: center;
+}
+
+.my-form2 {
+    padding: 20px;
+    display: inline;
+    
+}
+
+.my-form2 .form-group2 {
+    padding-bottom: 15px;
+    padding-left: 100px;
+    display: inline;
+}
+
+.my-form2 label{ 
+    display: block;
+    margin: 5px;
+    display: inline;
+}
+
+.my-form2 input[type="text"] {
+    padding: 8px;
+    width: 25%;
+    border-radius: 7px;
+    margin: 5px;
+    display: inline;
+
+}
+
+.login {
+    background-color: darkcyan;
+    color: ivory;
+    border-radius: 7px;
+  
+}
+
+.login:hover {
+    color: lawngreen;
+    
 }
