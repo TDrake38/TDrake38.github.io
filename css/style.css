@@ -169,3 +169,36 @@ h3 {
     color: lawngreen;
     
 }
+
+.register {
+    background-color: darkcyan;
+    color: ivory;
+    border-radius: 7px;
+    margin-left: 47%;
+  
+}
+
+.register:hover {
+    color: lawngreen;
+}
+
+.my-form3 {
+    padding: 20px;
+}
+
+.my-form3 .form-group3 {
+    padding-bottom: 15px;
+}
+
+.my-form3 label{ 
+    display: block;
+    margin: 5px 225px;
+}
+
+.my-form3 input[type="text"] {
+    padding: 8px;
+    width: 50%;
+    border-radius: 7px;
+    margin: 5px 250px;
+
+}
