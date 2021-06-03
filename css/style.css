@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    text-decoration: underline;
 }
 
 a:visited {
@@ -77,7 +77,10 @@ h3 {
 
 .button:hover {
     color: lawngreen;
-    
+}
+
+.button:active{
+    transform: scale(0.98);
 }
 
 .bags{
@@ -107,6 +110,13 @@ h3 {
 }
 
 .my-form input[type="text"] {
+    padding: 8px;
+    width: 50%;
+    border-radius: 7px;
+    margin: 5px 250px;
+
+}
+.my-form input[type="password"] {
     padding: 8px;
     width: 50%;
     border-radius: 7px;
@@ -201,4 +211,37 @@ h3 {
     border-radius: 7px;
     margin: 5px 250px;
 
+}
+
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success{
+    color: green;
+}
+.form__message--error{
+    color: red;
+}
+
+.form__input{
+    border-color: green;
+}
+
+.form__input--error{
+    color: red;
+    border-color: red;
+}
+
+.form__input-error-message{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: red;
+    text-align: center;
+}
+
+.form--hidden{
+    display: none;
 }

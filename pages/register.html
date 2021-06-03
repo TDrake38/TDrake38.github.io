@@ -4,36 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login/Register</title>
     <link rel="stylesheet"  type="text/css" href="../css/style.css">
     <script src="../js/register.js"></script>
 </head>
 <body>
-    <h1>Emergency Preparedness Bags</h1>
-    <h2>Register</h2>
-<hr>
-    <form action="" method="post" class="my-form3">
-        <div class="form-group3">
-            <label>Username: </label>
-            <input type="text" name="Username" placeholder="username" class="username" id="rUsername">
-        </div>
-        <div class="form-group3">
-            <label>Email: </label>
-            <input type="text" name="Email" placeholder="example@email.com" class="email" id="rEmail">
-        </div>
-        <div class="form-group3">
-            <label>Password: </label>
-            <input type="text" name="Password" placeholder="password" id="setPassword" class="setpassword" >
-        </div>
-        <input class="button" type="submit" value="Submit" name="">
-    </form>
-    <p>Password must be atleast 8 charachters long, have an uppercase letter and a number.</p>
+    <div>
+        <h1>Emergency Preparedness Bags</h1>
+    </div>
+    <div>
+        <h2>Login/Register</h2>
+    </div>
     <hr>
-    
+    <div class="container">
+        <form action="" method="post" class="my-form3 login__form form--hidden">
+            <div class="form__message form__message--error">
+                
+            </div>
+            <div class="form-group3">
+                <label>Username: </label>
+                <input type="text" name="Username" placeholder="username" class="username form__input" id="username" autofocus>
+            </div>
+            <div class="form-group3">
+                <label>Password: </label>
+                <input type="text" name="Password" placeholder="password" id="password" class="password form__input" autofocus>
+            </div>
+            <div class="form__input-error-message">
+                
+            </div>
+            <div>
+                <p>
+                    <a href="./" class="registerAccount"> Don't have an account? Register.</a>
+                </p>
+            </div>
+            <input class="button" type="submit" value="Submit" name="">
+        </form>
+    </div>
+    <div id="registation__form">
+        <form action="" method="post" class="my-form3">
+            <div class="form__message form__message--error">
+                
+            </div>
+            <div class="form-group3">
+                <label>Username: </label>
+                <input type="text" name="Username" placeholder="username" class="username" id="rUsername" autofocus>
+            </div>
+            <div class="form-group3">
+                <label>Email: </label>
+                <input type="text" name="Email" placeholder="example@email.com" class="email" id="rEmail" autofocus>
+            </div>
+            <div class="form-group3">
+                <label>Password: </label>
+                <input type="text" name="Password" placeholder="password" id="setPassword" class="setpassword" >
+            </div>
+            <div class="form-group3">
+                <label>Confirm Password: </label>
+                <input type="text" name="Password" placeholder=" confirm password" id="confirmPassword" class="confirmpassword" >
+            </div>
+            <div>
+                <p>
+                    <a href="./" class="linkLogin"> Already have an account?</a>
+                </p>
+            </div>
+            <input class="button" type="submit" value="Submit" name="">
+        </form>
+    </div>
+    <hr>
+    <div>
         <h3 style="margin-left: 48%;"><a href="file:///C:/Users/thoma/Desktop/Get-Coding_Project/Get_Coding_Project/index.html">
             Home</a>
         </h3>
-    
+    </div>
     <hr>
 
 </body>

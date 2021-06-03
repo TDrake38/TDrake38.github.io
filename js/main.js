@@ -1,4 +1,4 @@
-addEventListener('submit', runEvent);
+document.addEventListener('submit', runEvent);
 
 function runEvent(e){
     e.preventDefault();
