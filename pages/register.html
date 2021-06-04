@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/Register</title>
     <link rel="stylesheet"  type="text/css" href="../css/style.css">
-    <script src="../js/register.js"></script>
+    <script src="../js/main.js"></script>
 </head>
 <body>
     <div>
@@ -17,56 +17,60 @@
     </div>
     <hr>
     <div class="container">
-        <form action="" method="post" class="my-form3 login__form form--hidden">
-            <div class="form__message form__message--error">
-                
-            </div>
+        <form action="" method="post" class="my-form3 login__form " id="login">
+            <div class="form__message form__message--error"></div>
             <div class="form-group3">
                 <label>Username: </label>
                 <input type="text" name="Username" placeholder="username" class="username form__input" id="username" autofocus>
+                <div class="form__input-error-message"></div>
             </div>
             <div class="form-group3">
                 <label>Password: </label>
                 <input type="text" name="Password" placeholder="password" id="password" class="password form__input" autofocus>
+                <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-error-message">
                 
             </div>
+            <input class="button" type="submit" value="Submit" name="">
             <div>
                 <p>
-                    <a href="./" class="registerAccount"> Don't have an account? Register.</a>
+                    <a href="./" id="register_account"> Don't have an account? Register.</a>
                 </p>
             </div>
-            <input class="button" type="submit" value="Submit" name="">
         </form>
     </div>
-    <div id="registation__form">
-        <form action="" method="post" class="my-form3">
+    <div class="container">
+        <form action="" method="post" class="my-form3 form--hidden" id="registation__form">
             <div class="form__message form__message--error">
                 
             </div>
             <div class="form-group3">
                 <label>Username: </label>
-                <input type="text" name="Username" placeholder="username" class="username" id="rUsername" autofocus>
+                <input type="text" name="Username" placeholder="username" class="username form__input" id="rUsername" autofocus>
+                <div class="form__input-error-message"></div>
             </div>
             <div class="form-group3">
                 <label>Email: </label>
-                <input type="text" name="Email" placeholder="example@email.com" class="email" id="rEmail" autofocus>
+                <input type="text" name="Email" placeholder="example@email.com" class="email form__input" id="rEmail" autofocus>
+                <div class="form__input-error-message"></div>
             </div>
             <div class="form-group3">
                 <label>Password: </label>
-                <input type="text" name="Password" placeholder="password" id="setPassword" class="setpassword" >
+                <input type="text" name="Password" placeholder="password" id="setPassword" class="setpassword form__input" >
+                <div class="form__input-error-message"></div>
             </div>
             <div class="form-group3">
                 <label>Confirm Password: </label>
-                <input type="text" name="Password" placeholder=" confirm password" id="confirmPassword" class="confirmpassword" >
-            </div>
-            <div>
-                <p>
-                    <a href="./" class="linkLogin"> Already have an account?</a>
-                </p>
+                <input type="text" name="Password" placeholder=" confirm password" id="confirmPassword" class="confirmpassword form__input" >
+                <div class="form__input-error-message"></div>
             </div>
             <input class="button" type="submit" value="Submit" name="">
+            <div>
+                <p>
+                    <a href="./" id="linkLogin"> Already have an account? Login here.</a>
+                </p>
+            </div>
         </form>
     </div>
     <hr>
