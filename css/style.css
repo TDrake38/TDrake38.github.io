@@ -225,9 +225,9 @@ h3 {
     color: red;
 }
 
-.form__input{
+/*.form__input{
     border-color: green;
-}
+}*/
 
 .form__input--error{
     color: red;
@@ -239,6 +239,13 @@ h3 {
     margin-bottom: 0.5rem;
     font-size: 0.85rem;
     color: red;
+    text-align: center;
+}
+.form__input-success-message{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: green;
     text-align: center;
 }
 

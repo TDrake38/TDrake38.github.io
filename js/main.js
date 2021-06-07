@@ -1,4 +1,5 @@
 // This is for the login/register page
+
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
 
@@ -12,6 +13,21 @@ function setFormMessage(formElement, type, message) {
 function setInputError(inputElement, message) {
     inputElement.classList.add("form__input--error");
     inputElement.parentElement.querySelector(".form__input-error-message").textContent = message;
+}
+
+function clearInputError(inputElement) {
+    inputElement.classList.remove("form__input--error");
+    inputElement.parentElement.querySelector(".form__input-error-message").textContent = "";
+}
+
+function setInputSuccess(inputElement, message) {
+    inputElement.classList.add("form__input--success");
+    inputElement.parentElement.querySelector(".form__input-success-message").textContent = message;
+}
+
+function clearInputSuccess(inputElement) {
+    inputElement.classList.remove("form__input--success");
+    inputElement.parentElement.querySelector(".form__input-success-message").textContent = "";
 }
 
 
@@ -34,9 +50,12 @@ document.addEventListener("DOMContentLoaded", () => {
     loginForm.addEventListener("submit", e => {
         e.preventDefault();
 
+        // Add login stuff
 
         setFormMessage(loginForm, "error", "Invalid username/password combination.");
     });
+
+// registration form begins here 
 
     register.addEventListener("submit", e => {
         e.preventDefault();
@@ -51,11 +70,44 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e.target.id === "rUsername" && e.target.value.length > 0 && e.target.value.length < 5) {
                 setInputError(inputElement, "Username must be at least 5 chatacherts long.");
             }
+
+            else if (e.target.id === "rUsername" && e.target.value.length > 5 ) {
+                setInputSuccess(inputElement, "Valid Username.")};
         });
+
         inputElement.addEventListener("blur", e => {
             if (e.target.id === "setPassword" && e.target.value.length > 0 && e.target.value.length < 8) {
                 setInputError(inputElement, "Password must be at least 8 chatacherts long.");
             }
+
+            else if (e.target.id === "setPassword" && e.target.value.length > 8 ) {
+                setInputSuccess(inputElement, "Valid password.")};
+        });
+// fix this below - so it matches values and outputs the success message    
+       inputElement.addEventListener("blur", e => {
+            if (e.target.id === "confirmPassword" && e.target.value.length > 0 && e.target.value.length < 8) {
+                setInputError(inputElement, "Password does not match");
+            }
+
+            else if (e.target.id === "setPassword".value) {
+                setInputSuccess(inputElement, "Passwords match.")};
+        });
+// fix this above       
+        inputElement.addEventListener("input", e => {
+            clearInputError(inputElement);
+        });
+
+        inputElement.addEventListener("input", e => {
+            clearInputSuccess(inputElement);
+        });
+
+        inputElement.addEventListener("blur", e => {
+            if (e.target.id === "rEmail" && e.target.value.length > 0 && e.target.value.includes("@") && e.target.value.includes(".") ) {
+                setInputSuccess(inputElement, "Valid Email.");
+            }
+
+            else if (e.target.id === "rEmail" && e.target.value.length > 0 ) {
+                setInputError(inputElement, "Invalid Email.")};
         });
     });
 })
