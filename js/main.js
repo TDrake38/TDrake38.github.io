@@ -51,6 +51,11 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
 
         // Add login stuff
+        var lUsername = document.getElementById("username");
+        var lPw = document.getElementById("password")
+
+        console.log(lUsername.value);
+        console.log(lPw.value);
 
         setFormMessage(loginForm, "error", "Invalid username/password combination.");
     });
@@ -61,6 +66,15 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
 
         // Add in your registation stuff
+        var rUsername = document.getElementById("rUsername");
+        var rEmail = document.getElementById("rEmail");
+        var setPw = document.getElementById("setPassword");
+        var rPw = document.getElementById("confirmPassword");
+        
+        console.log(rUsername.value);
+        console.log(rEmail.value);
+        console.log(setPw.value);
+        console.log(rPw.value);
 
         setFormMessage(register, "error", "Something went wrong.");
     });
@@ -111,3 +125,30 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 })
+
+function showPassword() {
+    var x = document.getElementById("password");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+
+  function showSetPassword() {
+    var y = document.getElementById("setPassword");
+    if (y.type === "password") {
+      y.type = "text";
+    } else {
+      y.type = "password";
+    }
+  }
+
+  function showConPassword() {
+    var z = document.getElementById("confirmPassword");
+    if (z.type === "password") {
+      z.type = "text";
+    } else {
+      z.type = "password";
+    }
+  }

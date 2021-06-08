@@ -27,7 +27,11 @@
             </div>
             <div class="form-group3">
                 <label>Password: </label>
-                <input type="text" name="Password" placeholder="password" id="password" class="password form__input" autofocus>
+                <input type="password" name="Password" placeholder="password" id="password" class="password form__input" autofocus>
+                <div style="font-size: .8rem;">
+                    <input type="checkbox" class="checkbox" onclick="showPassword()">
+                    Show password.
+                </div>
                 <div class="form__input-error-message"></div>
                 <div class="form__input-success-message"></div>
             </div>
@@ -61,13 +65,21 @@
             </div>
             <div class="form-group3">
                 <label>Password: </label>
-                <input type="text" name="Password" placeholder="password" id="setPassword" class="setpassword form__input" >
+                <input type="password" name="Password" placeholder="password" id="setPassword" class="setpassword form__input" >
+                <div style="font-size: .8rem;">
+                    <input type="checkbox" class="checkbox" onclick="showSetPassword()">
+                    Show password.
+                </div>
                 <div class="form__input-error-message"></div>
                 <div class="form__input-success-message"></div>
             </div>
             <div class="form-group3">
                 <label>Confirm Password: </label>
-                <input type="text" name="Password" placeholder=" confirm password" id="confirmPassword" class="confirmpassword form__input" >
+                <input type="password" name="Password" placeholder="confirm password" id="confirmPassword" class="confirmpassword form__input" >
+                <div style="font-size: .8rem;">
+                    <input type="checkbox" class="checkbox" onclick="showConPassword()">   
+                    Show password.
+                </div>
                 <div class="form__input-error-message"></div>
                 <div class="form__input-success-message"></div>
             </div>

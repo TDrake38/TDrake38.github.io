@@ -213,6 +213,14 @@ h3 {
 
 }
 
+.my-form3 input[type="password"] {
+    padding: 8px;
+    width: 50%;
+    border-radius: 7px;
+    margin: 5px 250px;
+
+}
+
 .form__message{
     text-align: center;
     margin-bottom: 1rem;
@@ -251,4 +259,8 @@ h3 {
 
 .form--hidden{
     display: none;
+}
+
+.checkbox {
+    margin-left: 250px;
 }
