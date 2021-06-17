@@ -1,5 +1,6 @@
 // This is for the login/register page
 
+
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
 
@@ -35,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#login");
     const register = document.querySelector("#registation__form");
     
+    
     document.querySelector("#register_account").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.add("form--hidden");
@@ -47,17 +49,20 @@ document.addEventListener("DOMContentLoaded", () => {
         register.classList.add("form--hidden");
     });
 
+// Add login stuff and form validation
     loginForm.addEventListener("submit", e => {
-        e.preventDefault();
-
-        // Add login stuff
         var lUsername = document.getElementById("username");
-        var lPw = document.getElementById("password")
+        var lPw = document.getElementById("password");
 
-        console.log(lUsername.value);
-        console.log(lPw.value);
+        if (lUsername.value === '' || lUsername.value == null) {
+            e.preventDefault();
+            setFormMessage(loginForm, "error", "Invalid username.");
+        };
 
-        setFormMessage(loginForm, "error", "Invalid username/password combination.");
+        if (lUsername.value == "Username" && lPw.value == "password") {
+            e.preventDefault()
+            window.location.href="registerd_emergencies.html";
+        }
     });
 
 // registration form begins here 
