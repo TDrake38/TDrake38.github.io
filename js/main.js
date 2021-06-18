@@ -49,6 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
         register.classList.add("form--hidden");
     });
 
+///test
+
 // Add login stuff and form validation
     loginForm.addEventListener("submit", e => {
         lUsername = document.getElementById("username");
