@@ -50,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-
 // Add login stuff and form validation
     loginForm.addEventListener("submit", e => {
         lUsername = document.getElementById("username");
