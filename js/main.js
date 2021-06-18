@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         register.classList.add("form--hidden");
     });
 
-///test
+
 ///te
 
 // Add login stuff and form validation
