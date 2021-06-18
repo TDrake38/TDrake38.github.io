@@ -50,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-///te
 
 // Add login stuff and form validation
     loginForm.addEventListener("submit", e => {
