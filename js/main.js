@@ -51,8 +51,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Add login stuff and form validation
     loginForm.addEventListener("submit", e => {
-        var lUsername = document.getElementById("username");
+        lUsername = document.getElementById("username");
         var lPw = document.getElementById("password");
+    
 
         if (lUsername.value === '' || lUsername.value == null) {
             e.preventDefault();
