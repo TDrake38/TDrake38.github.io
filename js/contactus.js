@@ -8,5 +8,3 @@ function runEvent(e){
     console.log(document.querySelector('.email').value);
     console.log(document.querySelector('.message').value);
 };
-
-
