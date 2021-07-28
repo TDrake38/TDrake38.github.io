@@ -1,27 +1,22 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 200px;
-    background-color: #333333;
+    background-color: #504e4e;
     color: #D3D3D3;
     
     
 }
+
+#title-background {
+    background-color: darkcyan;
+    padding: 0.5px 0px;
+    border-radius: 15px;
+}
 h1 {
     text-align: center;
-    background-color: darkcyan;
     color: ivory;
-    border: 7px double ivory;
-    padding: 10px 10px ;
-    margin: 10px 200px;
-    border-radius: 15px;
 
 }
 h2 { text-align: center;
-    border: 2px solid #D3D3D3;
-    padding: 10px 10px ;
-    border-radius: 15px;
-    margin: 10px 400px;
-    background-color: darkcyan;
     color:ivory;
     
 }
@@ -59,8 +54,8 @@ a:visited {
 }
 
 h3 {
-    display: inline;
-    margin: 0px 200px;
+    text-align: center;
+    
 }
 
 .inventory {
@@ -72,7 +67,15 @@ h3 {
     background-color: darkcyan;
     color: ivory;
     border-radius: 7px;
-   margin-left: 500px;
+}
+
+.page-button {
+    background-color: darkcyan;
+    color: ivory;
+    border-radius: 7px;
+    margin: 2px 650px;
+    padding: 3px;
+
 }
 
 .button:hover {
@@ -93,11 +96,14 @@ h3 {
 .weather {
     border-radius: 15px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+    width:1000px;
+    height:400px;
 }
 
 .my-form {
     padding: 20px;
+    text-align: center;
 }
 
 .my-form .formGroup {
@@ -113,9 +119,8 @@ h3 {
     padding: 8px;
     width: 50%;
     border-radius: 7px;
-    margin: 5px 250px;
-
 }
+
 .my-form input[type="password"] {
     padding: 8px;
     width: 50%;
@@ -129,7 +134,6 @@ h3 {
     width: 50%;
     height: 100px;
     border-radius: 7px;
-    margin: 5px 250px;
 }
 
 .block {
