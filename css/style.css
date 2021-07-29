@@ -145,6 +145,11 @@ nav {
     padding: 20px 50px;
 }
 
+.bag-icon {
+    width:35px;
+    height: auto;
+}
+
 .emerg-inline {
     display:inline-block;
     margin: 10px;
