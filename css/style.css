@@ -1,49 +1,44 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #504e4e;
-    color: #D3D3D3;
-    
-    
+    background-color: #ececec;
+    color:rgb(5, 82, 82);
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 #title-background {
-    background-color: darkcyan;
+    background-color: rgb(5, 82, 82);
     padding: 0.5px 0px;
     border-radius: 15px;
 }
+
 h1 {
     text-align: center;
     color: ivory;
-
 }
+
 h2 { text-align: center;
-    color:ivory;
-    
+    color:rgb(5, 82, 82);
 }
-
 
 p {
     text-align: center;
     padding: 10px 150px;
     line-height: 1.5em;
-
 }
 
 a {
     text-decoration: none;
-    color:ivory;
+    color:white;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-a:visited {
-    color: #D3D3D3;
-}
 .main-list {
     color:#D3D3D3;
-    border: 3px solid darkcyan;
+    border: 3px solid rgb(1, 139, 139);
     border-radius: 15px;
     margin: 10px 400px 10px 400px;
     padding: 10px;
@@ -54,7 +49,6 @@ a:visited {
 
 h3 {
     text-align: center;
-    
 }
 
 .inventory {
@@ -116,6 +110,7 @@ nav {
 
 .weather {
     border-radius: 15px;
+    border: 5px solid darkcyan;
     text-align: center;
     margin: 10px;
     width:1000px;
@@ -125,19 +120,31 @@ nav {
 .emergency-pics {
     border-radius: 15px;
     margin: 10px;
-    width:200px;
-    height:130px;
+    width:270px;
+    height:200px;
 }
 .emergency-list {
     color:#D3D3D3;
     border: 3px solid darkcyan;
+    background-color: rgb(5, 82, 82);
     border-radius: 15px;
     list-style: none ;
     line-height: 1.5em;
-    margin: 40px 100px;
+    margin: 30px 200px;
     padding: 0px;
     text-align: center;
 }
+
+.bag-list {
+    background-color: rgb(5, 82, 82);
+    font-weight: bold;
+    color: ivory;
+    border-radius: 15px;
+    line-height: 1.5em;
+    margin: 30px 200px;
+    padding: 20px 50px;
+}
+
 .emerg-inline {
     display:inline-block;
     margin: 10px;
