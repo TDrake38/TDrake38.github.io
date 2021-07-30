@@ -122,6 +122,7 @@ nav {
     margin: 10px;
     width:270px;
     height:200px;
+    position: relative;
 }
 .emergency-list {
     color:#D3D3D3;
@@ -133,6 +134,57 @@ nav {
     margin: 30px 200px;
     padding: 0px;
     text-align: center;
+}
+
+.emerg-text {
+    background-color: rgb(5, 82, 82);
+    border-radius: 15px;
+    padding: 5px;
+    border: 3px solid black;
+    color: white;
+    top:625px;
+    left: 340px;;
+    position: absolute;
+}
+.emerg-text1 {
+    background-color: rgb(5, 82, 82);
+    border-radius: 15px;
+    padding: 5px;
+    border: 3px solid black;
+    color: white;
+    top:625px;
+    left: 690px;;
+    position: absolute;
+}
+.emerg-text2 {
+    background-color: rgb(5, 82, 82);
+    border-radius: 15px;
+    padding: 5px;
+    border: 3px solid black;
+    color: white;
+    top:625px;
+    left: 1027px;;
+    position: absolute;
+}
+.emerg-text3 {
+    background-color: rgb(5, 82, 82);
+    border-radius: 15px;
+    padding: 5px;
+    border: 3px solid black;
+    color: white;
+    top:875px;
+    left: 484px;;
+    position: absolute;
+}
+.emerg-text4 {
+    background-color: rgb(5, 82, 82);
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    top:875px;
+    left: 787px;;
+    position: absolute;
 }
 
 .bag-list {
