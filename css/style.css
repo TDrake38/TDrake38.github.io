@@ -34,9 +34,9 @@ h2 { text-align: center;
 
 p {
     text-align: center;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
     margin: 24px 24px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 a {
@@ -89,6 +89,7 @@ ul {
     color: ivory;
     border-radius: 7px;
     padding: 5px;
+    font-size: 24px;
 }
 .page-button1 {
     background-color: darkcyan;
