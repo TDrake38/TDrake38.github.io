@@ -124,10 +124,15 @@ ul {
 }
 
 .weather {
-    margin-top: 25px;
     border-radius: 15px;
+    height: 40vh;
+    object-fit: cover;
+    width: 95%;
+}
+
+.home-pic {
+    margin-top: 40px;
     text-align: center;
-    width:95%;
 }
 
 .emergency-pics {
