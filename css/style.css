@@ -135,6 +135,13 @@ ul {
     text-align: center;
 }
 
+.emerg-list-title {
+    text-align: center;
+    list-style: none;
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
 .emergency-pics {
     border-radius: 15px;
     margin: 10px;
@@ -234,7 +241,7 @@ ul {
 
 .my-form label{ 
     display: block;
-    margin: 5px 225px;
+    text-align: center;
 }
 
 .my-form input[type="text"] {
