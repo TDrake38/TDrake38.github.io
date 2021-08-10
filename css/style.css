@@ -79,9 +79,7 @@ nav {
     margin-top: 25px;
 }
 
-ul {
-    padding: 0px;
-}
+
 
 .inline {
     display: inline;
@@ -145,10 +143,10 @@ ul {
 .emergency-pics {
     border-radius: 15px;
     margin: 10px;
-    width:270px;
-    height:200px;
-    position: relative;
+    width: 270px;
+    height: 200px;
 }
+
 .emergency-list {
     color:#D3D3D3;
     border: 3px solid darkcyan;
@@ -157,8 +155,11 @@ ul {
     list-style: none ;
     line-height: 1.5em;
     padding: 0px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
 
 .emerg-text {
     background-color: rgb(5, 82, 82);
@@ -225,10 +226,7 @@ ul {
     height: auto;
 }
 
-.emerg-inline {
-    display:inline-block;
-    margin: 10px;
-}
+
 
 .my-form {
     padding: 20px;
@@ -419,10 +417,6 @@ ul {
     .bag-list {
         padding: 20px 50px;
         margin: 25px 70px;
-    }
-
-    .emergency-list {
-        margin: 24px 100px;
     }
 
     .weather {
