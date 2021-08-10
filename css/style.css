@@ -425,4 +425,9 @@ nav {
         margin-top: 20px;
     }
 
+    .emergency-pics {
+        width: 400px;
+        height: 300px;
+    }
+
 }
